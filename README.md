@@ -10,10 +10,10 @@ Input: A program gets data, perhaps from a file, keyboard, touchscreen, network,
 Process: A program performs computations on that data, such as adding two values like x + y.
 Output: A program puts that data somewhere, such as to a file, screen, network, etc.
 
-<code>
+<h2><code>
 #include <stdio.h>
 
 main(){
         printf("Hello world\n");
 }
-</code>
+</code></h2>
