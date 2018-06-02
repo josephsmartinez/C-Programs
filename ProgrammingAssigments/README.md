@@ -22,10 +22,10 @@ In this assignment, you need to construct a queue of integers by implementing it
 and dequeue operations using two stacks in the following way (implementation of a stack
 and its push & pop operations in C can be found in the textbook and in slides).<br>
 
-<strong> void enqueue(int entity):</strong> The enqueue operation can be done by simply pushing the
+<strong>- void enqueue(int entity):</strong> The enqueue operation can be done by simply pushing the
 entity in the frist stack.<br>
 
-<strong> int dequeue():</strong> In order to implement dequeue operation, you need to rst transfer all
+<strong>- int dequeue():</strong> In order to implement dequeue operation, you need to rst transfer all
 of the entities stored in the rst stack to the second one using a sequence of alternating
 pop and push operations on the rst and second stacks respectively (i.e. popping an
 integer from the rst stack and pushing it back to the second one). After emptying the
